@@ -2,7 +2,7 @@
   "name": "gulp-workflow",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,8 +12,27 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.22.8",
+    "@babel/preset-env": "^7.22.7",
+    "del": "5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "4",
+    "gulp-sass": "^5.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "3.1.6",
+    "node-sass": "^9.0.0",
+    "sass": "^1.63.6",
+    "browser-sync": "^2.29.3"
+  },
+  "files": ["lib", "bin"],
   "bugs": {
     "url": "https://github.com/huangyul/gulp-workflow/issues"
   },
+  "bin": "bin/gulp-workflow.js",
   "homepage": "https://github.com/huangyul/gulp-workflow#readme"
 }
